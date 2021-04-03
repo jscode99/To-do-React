@@ -19,7 +19,7 @@ function App() {
         setInputText={setInputText}
         inputText={inputText}
       />
-      <Todo />
+      <Todo todos={todos} />
     </div>
   );
 }
